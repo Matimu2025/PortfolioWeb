@@ -1104,6 +1104,10 @@ footer {
     box-shadow: 0 10px 25px rgba(0, 255, 252, 0.6);
 }
 
+.chatbot-toggle ion-icon {
+    font-size: 35px;
+}
+
 /* ============================================ */
 /* CONTACT SECTION MOBILE LAYOUT */
 /* ============================================ */
@@ -1147,3 +1151,16 @@ footer {
     transition: all 0.3s ease;
 }
 
+
+
+/* Certificate button fix - MUST BE LAST */
+#certifications .card a.btn-small {
+    pointer-events: auto !important;
+    cursor: pointer !important;
+    position: relative !important;
+    z-index: 100 !important;
+}
+
+#certifications .card a.btn-small * {
+    pointer-events: none !important;
+}
