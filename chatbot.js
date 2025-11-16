@@ -486,7 +486,7 @@ style.textContent = `
             "You can check out Matimu's projects section to see her work on Vakahina Fashion and a Real-Time Chat Application."
         ],
         contact: [
-            "You can contact Matimu via email at timu@gmail.com, phone at 083 512 2516, or by filling out the contact form on this website.",
+            "You can contact Matimu via email at matimubaloyi49@gmail.com, or by filling out the contact form on this website.",
             "Feel free to reach out to Matimu through the contact form on this site, or directly via email or phone."
         ],
 yes: [
@@ -538,7 +538,7 @@ no: [
     return getRandomResponse('projects');
 } else if (input.includes('education') || input.includes('study') || input.includes('qualification') || input.includes('degree')) {
     return getRandomResponse('education');
-} else if (input.includes('contact') || input.includes('reach') || input.includes('email') || input.includes('phone')) {
+} else if (input.includes('contact') || input.includes('reach') || input.includes('email') || input.includes('phone')  || input.includes('get in touch') || input.includes('connect') || input.includes('message') || input.includes('call') || input.includes('talk to') || input.includes('communicate') || input.includes('contact me')) {
     return getRandomResponse('contact');
 } 
 // Basic conversational patterns
