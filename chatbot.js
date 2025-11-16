@@ -569,7 +569,7 @@ else if (input.includes('hi') || input.includes('hello') || input.includes('hey'
 
 
 // Make this the last check since it's very broad
-else if (input.includes('about') || input.includes('matimu') || input.includes('what do you do') || input.includes('who') || input.includes('matimu baloyi')) {
+else if (input.includes('about') || input.includes('matimu') || input.includes('what do you do') || input.includes('who') || input.includes('matimu baloyi') ||  input.includes('baloyi') ||  input.includes('her') || input.includes('she') ) {
     return getRandomResponse('about');
 } else {
     return getRandomResponse('default');
